@@ -14,6 +14,18 @@ const sampleRecipes = [
         instructions: `1. put salt
         2. put in oven
         3. eat it`,
+        ingredients: [
+            {
+                id: 1,
+                name: 'chicken',
+                amount: 3,
+            },
+            {
+                id: 2,
+                name: 'salt',
+                amount: '1 tbs',
+            },
+        ],
     },
     {
         id: 2,
@@ -23,6 +35,18 @@ const sampleRecipes = [
         instructions: `1. put salt
         2. put in oven
         3. eat it`,
+        ingredients: [
+            {
+                id: 1,
+                name: 'pizza',
+                amount: 3,
+            },
+            {
+                id: 2,
+                name: 'cheese',
+                amount: '1 slice',
+            },
+        ],
     },
 ];
 
